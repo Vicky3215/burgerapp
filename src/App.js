@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Layout from './components/Layout/Layout';
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
 
 function App() {
   return (
-    <div className="App">
-    <p>hello this is react app</p>
+    <div  >
+      <Layout>
+       <BurgerBuilder/>
+      </Layout>
+  
     </div>
   );
 }
